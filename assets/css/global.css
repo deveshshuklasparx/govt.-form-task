@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+font-family: 'Noto Sans', sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+  color:#515974
+
+}
+button{
+	background: none;
+	outline:none;
+	border:none;
+	cursor:pointer;
+}
+
+li{
+	list-style-type: none;
+}
+
+h1,h2,h3,h4{
+font-weight: 400;
+color:#000;
+margin-bottom: 10px;
+}
+a{
+	text-decoration: none;
+}
+p{
+		color:#000;	
+		margin-bottom: 10px;
+}
+input{
+	border:none;
+	transition:all 0.5s linear;
+		
+}
+input:focus{
+	outline:none;
+	border:1px solid red;
+}
+/*
+::placeholder{
+	color:#819aac;
+	
+}*/
+/*textarea{
+	font-size: 21px;
+color:#819aac;
+background: #ffffff;
+	outline:none;
+	border:none;
+	cursor:auto;
+}*/
+/*label{
+	display: block;
+}
+fieldset{
+	border:none;
+}*/
+img{
+	width:100%;
+	height:auto;
+}
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+[class^="icon-"], [class*="icon-"] {
+	display: inline-block;
+	width:41px;
+	height:41px;
+	background: url("../images/sprite.png") no-repeat;
+	vertical-align: middle;
+	font-size: 0;
+	transition: all .3s cubic-bezier(.4,0,.2,1);
+}

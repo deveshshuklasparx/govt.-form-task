@@ -1,0 +1,191 @@
+@media (min-width:576px){
+	 .input-wrapper{
+	 	display:flex;
+	 	justify-content:space-between;
+	 }
+	 .your-name span{
+	 	width:24%
+	 }
+	 .parents-info span{
+	 	width:48%
+	 }
+}
+@media (min-width:768px){
+	.first-section{
+		display:flex;
+		justify-content:space-between;
+		align-items:center
+	}
+	.first-internal {
+		width:28%;
+		
+	}
+	.registered-list{
+		width: 30%;
+	}
+	.footer{
+		background: #bc135a;
+		padding: 0 15px;
+	}
+
+	.footer-menu{
+		display:flex;
+		justify-content:space-between;
+	}
+	.footer .container{
+		padding: 0 15px;
+	}
+	  .footer-menu li {
+	  	display: inline-block;
+	  	padding: 0
+	  }
+	  .footer-menu li a{
+	  	padding: 10px 0;
+	  }
+	  
+	  
+	  /*application form*/
+	 .slider-nav li {
+		width: 85px !important;
+		height: 85px
+	}
+	.slider-nav .slick-slide {
+		position: relative;
+		z-index: 55
+	}
+	.slider-nav .slick-slide:after {
+		position: absolute;
+		content: "";
+		border-bottom: 1px dotted #b3b3b3;
+		width: 100%;
+		left: 100%;
+		top: 50%;
+		transform: translate(-50%);
+		z-index: -1
+	}
+	.slider-nav .slick-track .slick-slide.slick-current:nth-child(1):after {
+		border-bottom: 1px dotted #f2655a
+	}
+	.slider-nav .slick-track .slick-slide.slick-current:nth-child(2):after {
+		border-bottom: 1px dotted #218592
+	}
+	.slider-nav .slick-track .slick-slide.slick-current:nth-child(3):after {
+		border-bottom: 1px dotted #fcb124
+	}
+	.slider-nav .slick-slide:last-child:after {
+		display: none
+	}
+	.slider-nav li img {
+		width: auto
+	}
+	.menu-tabs-scroll {
+		display: block
+	}
+	.scope-content-wrapper {
+		overflow: initial
+	}
+	  
+}
+@media (min-width: 992px) {
+	.header{
+		border-bottom: none;
+	}
+		#hamburger{
+			display: none;
+		}
+		.menu{
+		display: block;	
+	    padding: 0;
+	    border-top:2px solid #cfc2cc;
+	    border-bottom:2px solid #cfc2cc;
+		}
+		.top-list{
+			display: none;
+		}
+		.btn-wrapper{
+			display: flex;
+			justify-content:space-between;
+			align-items:center
+		}
+		.logo{
+			width: auto;
+		}
+		.logo img{
+			width:auto
+		}
+		.common-properties{
+	display: block;
+		width: 23%;
+}
+.ug-text{
+	text-align: center;
+	width:41%
+}
+.menu{
+	position: relative;
+}
+.menu li{
+	display: inline-block;
+	padding: 15px 21px;
+	position: relative;
+	border-right:2px solid #4c4c4c;
+}
+.menu li a{
+	font-size: 16px;
+}
+
+	.menu li:last-child{
+		border-right:none
+	}
+.menu .container{
+
+	padding: 0
+	}
+.menu li a{
+	padding: 0;
+}
+.intro-section{
+	margin-top: 173px;
+	padding: 0 0 30px
+}
+.common-top{
+	margin-top: 173px;
+}
+.btn-1 span {
+    display: block;
+    padding: 15px 35px;
+}
+.lazy-slider .slick-dots li button {
+		background-repeat: no-repeat;
+		background-position: center center;
+		position: relative
+	}
+	.hire-conversion-head {
+	
+		margin-bottom: 40px
+	}
+	.sliding-section {
+		padding-top: 70px;
+		padding-bottom: 70px
+	}
+.slider-for{
+		width: 60%
+	}
+}
+@media (min-width:1100px) {
+	.menu li{
+		padding: 15px 30px;
+	}
+}
+@media (min-width:1200px) {
+	.menu li{
+		padding: 15px 36px;
+	}
+}
+	
+
+	
+
+
+
+
