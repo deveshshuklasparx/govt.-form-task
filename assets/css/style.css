@@ -530,20 +530,7 @@ margin-bottom: 0 !important;
   input:focus{
   	border:none
    }
-  .input-wrapper input{
-  	width: 100%;
-  	display: block;
-  	border:none;
-  	outline:none
  
- 
-  }
-  .input-wrapper .common-tags{
-  	display: block;
-  	border-bottom:1px solid #000;
-  	 	margin-bottom: 10px;
-  	 	 	padding:6px 5px;
-  }
   [type="radio"]:checked,
 [type="radio"]:not(:checked) {
     position: absolute;
@@ -595,32 +582,7 @@ margin-bottom: 0 !important;
     transform: scale(1);
 }
 
-.dob label{
-	
-	font-size: 13px;
-}
-.dob .minority{
-	display: block;
-	font-size: 15px;
-	padding: 3px 2px;
-	width: 100%;
-}
-.dob .common-tags{
-	border-bottom: none;
-}
-.dob .dob-wrapper{
-	display: flex;
-	align-items:center
-}
-.dob .dob-wrapper label{
-	display: inline-block;
-	width: 82%;
-	
-}
-.dob .dob-wrapper input{
-	display: inline-block;
-	border:1px solid #000
-}
+
 input[type="date"]{
 	padding:3px 2px; 
 }
@@ -628,3 +590,66 @@ select:focus{
 	outline:none;
 
 }
+.hire-content-info h2{
+	font-size: 26px ;
+	margin-bottom: 25px;
+	margin-top: 0;
+}
+.custom-radio .custom-control-input:checked~.custom-control-label::after ,[type="radio"]:checked + label:after{
+     background-image: none;
+     background: none; 
+}
+.hire-content-info{
+	padding: 0 5px;
+}
+.custom-control-label.other-gender{
+	margin-left: 50px;
+}
+label{
+	color:#000;
+	font-weight: 600;
+}
+.date-birth{
+	display: flex !important;
+	align-items:center;
+	
+}
+.date-birth label{
+	width: 150px;
+	margin-top: 12px;
+}
+.gender-wrapper .custom-control-inline{
+	margin-right: 0;
+}
+.education-wrapper{
+	padding: 30px 0
+}
+.common-heading h2{
+
+	margin-bottom: 30px;
+}
+.common-heading h2:after{
+position:absolute;
+border-bottom:2px solid #3c4858;
+width:100%;
+content:"";
+left:0;
+top:50%;
+transform:translateY(-50%);
+z-index:5;
+}
+.common-heading h2 span{
+display:inline-block;
+position:relative;
+z-index:50;
+background:white;
+padding: 0 8px ;
+}
+.hire-content-info .form-group{
+margin-bottom: 30px;
+}
+
+
+
+
+ /*materail kit form starts*/

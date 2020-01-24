@@ -31,7 +31,7 @@ $(window).scroll(function() {
 		
 		}
 	}),
-	 $(".slider-for").slick({
+	 $(".slider-text").slick({
 		slidesToShow : 1,
 		slidesToScroll : 1,
 		arrows : !1,
@@ -41,7 +41,7 @@ $(window).scroll(function() {
 	}), $(".slider-nav").slick({
 		slidesToShow : 4,
 		slidesToScroll : 1,
-		asNavFor : ".slider-for",
+		asNavFor : ".slider-text",
 		dots : !0,
 		adaptiveHeight : !0,
 		arrows : !1,

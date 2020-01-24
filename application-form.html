@@ -8,6 +8,7 @@
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/global.css">
 			<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+				 <link href="assets/css/material-kit.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	</head>
@@ -88,8 +89,22 @@
 
 				
 			</header>
-			
-			<section class="sliding-section common-border common-top">
+			<!-- <div class="">
+    <div class="container">
+      <div class="section text-center">
+        <h2 class="title">Your main section here</h2>
+      </div>
+    </div>
+  </div> -->
+ 
+  		<section class="common-top">
+  <div class="main">
+    <div class="container">
+      
+  </div>
+ </section>
+  
+			<section class="main main-raised sliding-section common-border common-top">
 					<div class="container">
 						<h2 class="hire-conversion-head">form</h2>
 						<ul class="lazy-slider slider-nav">
@@ -107,84 +122,157 @@
 							</li>
 
 						</ul>
-						<div class="lazy-slider slides slider-for">
-							<form class="hire-content-info">
-								<div class="hire-text-box">
-									<h4>Personal Details</h4>
-									<form>
-										
-										<div class="input-wrapper your-name">
-											<span class="common-tags"><input type="text" placeholder="First Name"></span>
-											<span class="common-tags"><input type="text" placeholder="Middle Name"></span>
-											<span class="common-tags"><input type="text" placeholder="Last Name"></span>
-										</div>
-										<div class="input-wrapper parents-info">
-											<span class="common-tags"><input type="text" placeholder="Father's Name"></span>
-											<span class="common-tags"><input type="text" placeholder="Mother's Name"></span>
-											
-										</div>
-										
-											<div class="input-wrapper dob">
-										      <span class="common-tags dob-wrapper"><label>Date of birth -</label>
-										      	 <input type="date" name="bday"></span>
-										      	 <select class="minority">
-  	   <option>Minority</option>
-  	   <option>Hindu</option>
-  	   <option>Muslim</option>
-  	   <option>Sikh</option>
-  	   <option>Cristian</option>
-  	 </select>
-										 </div>
-										
-   	<div class="input-wrapper parents-info">
-   		<label>Gender</label>
-   		  <span>
-    <input type="radio" id="test1" name="radio-group" checked>
-    <label for="test1">Male</label>
-  </span>
-  <span>
-    <input type="radio" id="test2" name="radio-group">
-    <label for="test2">Female</label>
-  </span>
-  <span>
-    <input type="radio" id="test3" name="radio-group">
-    <label for="test3">Other</label>
-  </spans>
-  </div>
-  <div class="selct-wrapper">
-  	<select>
-  	   <option>Category</option>
-  	   <option>General</option>
-  	   <option>OBC</option>
-  	 </select>
-  	 
-  	 
-  </div>
-  <div>
-  	<select>
-  	   <option>Identification</option>
-  	   <option>PAN Card</option>
-  	   <option>Aadhar Card</option>
-  	 </select>
-  	 <div class="indentification-wrapper input-wrapper">
+						<div class="lazy-slider slides slider-text container">
+							
+							<form class="hire-content-info common-heading">
+								<h2 class="text-center position-relative"><span>Personal Detail</span></h2>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="inputEmail1">First Name</label>
+            <input type="text" class="form-control" id="inputEmail1" placeholder="First Name">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputEmail2">Middle Name</label>
+            <input type="text" class="form-control" id="inputEmail2" placeholder="Middle Name">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="lastname">Last Name</label>
+            <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            
+            <input type="text" class="form-control" id="inputEmail4" placeholder="Father's Name">
+          </div>
+          <div class="form-group col-md-4">
+           
+            <input type="text" class="form-control" id="inputEmail4" placeholder="Mother's Name">
+          </div>
+          <div class="form-group col-md-4">
+           
+            <input type="mail" class="form-control"  placeholder="Your E-mail Id">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Currrent Address</label>
+          <input type="text" class="form-control"  placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Permanent Address</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-row">
+        	<div class="form-group col-md-6 gender-wrapper">
+        		<label>Gender</label>
+        		<!-- Default inline 1-->
+        		<div class="custom-control custom-radio custom-control-inline">
+        		  <input type="radio" class="custom-control-input" id="defaultInline1" name="inlineDefaultRadiosExample">
+        		  <label class="custom-control-label" for="defaultInline1">Male</label>
+        		</div>
+        		
+        		<!-- Default inline 2-->
+        		<div class="custom-control custom-radio custom-control-inline">
+        		  <input type="radio" class="custom-control-input" id="defaultInline2" name="inlineDefaultRadiosExample">
+        		  <label class="custom-control-label" for="defaultInline2">Female</label>
+        		</div>
+        		
+        		<!-- Default inline 3-->
+        		<div class="custom-control custom-radio custom-control-inline">
+        		  <input type="radio" class="custom-control-input" id="defaultInline3" name="inlineDefaultRadiosExample">
+        		  <label class="custom-control-label other-gender" for="defaultInline3">Other</label>
+        		</div>
+        	</div>
+        	<div class="form-group col-md-4 date-birth">
+        		<label for="date">Date of Birth</label>
+            <input type="date" class="form-control" id="date">
+        	</div>
+        </div>
+        
+        
+        <!-- <button type="submit" class="btn btn-primary">Sign in</button> -->
+        <div class="education-wrapper common-heading">
+        	<h2 class="text-center position-relative"><span>Educational Detail</span></h2>
+        	
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="school-name">Name of School</label>
+            <input type="text" class="form-control" id="school-name" placeholder="School Name">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="x-board">Class X board Name</label>
+            <input type="text" class="form-control" id="x-board" placeholder="Board Name">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="xii-board">Class XII Board Name</label>
+            <input type="text" class="form-control" id="xii-board" placeholder="Board Name">
+          </div>
+          
+        </div>
+<div class="form-row">
+	<div class="form-group col-md-4">
+	            <label for="Graduation">Class X %</label>
+	            <input type="text" class="form-control" id="graduation" placeholder="X Percentage">
+	          </div>
+	          <div class="form-group col-md-4">
+	            <label for="Graduation">Class XII %</label>
+	            <input type="text" class="form-control" id="graduation" placeholder="XII Percentage">
+	          </div>
+	          <div class="form-group col-md-4">
+	            <label for="passingyearofx">Passing year of X</label>
+	            <input type="text" class="form-control" id="passingyearofx" placeholder="Year">
+	          </div>
+	          
+	           
+</div>
+<div class="form-row">
+	
+	          <div class="form-group col-md-4">
+	            <label for="passingyearofxii">Passing year of XII</label>
+	            <input type="text" class="form-control" id="passingyearofxii" placeholder="XII Percentage">
+	          </div>
+	          <div class="form-group col-md-4">
+	            <label for="Graduation">College Name</label>
+	            <input type="text" class="form-control" id="graduation" placeholder="College Name">
+	          </div>
+	          <div class="form-group col-md-4">
+	            <label for="graduationname">Graduation Name</label>
+	            <input type="text" class="form-control" id="graduationname" placeholder="Degree Name">
+	          </div>
+	           
+</div>
+<div class="form-row">
+	
+	           
+	          <div class="form-group col-md-4">
+	            <label for="graduationper">Graduation %</label>
+	            <input type="text" class="form-control" id="graduationper" placeholder="Graudation %">
+	          </div>
+	          <div class="form-group col-md-4">
+	            <label for="graduationname">Back logs</label>
+	            <input type="text" class="form-control" id="graduationname" placeholder="Back logs">
+	          </div>
+</div>
 
-  	 	<input type="number" placeholder="Enter last 4 digits">
-  	 </div>
-  </div>
-										 
-										 
-									</form>
-									<h4>Academics Details</h4>
-									
-									<form>
-										<div>
-											<label>
-												Name of school
-											</label>
-										</div>
-									</form>
-								</div>
-							</form>
+        </div>
+      </form>
 							<form class="hire-content-info">
 								<div class="hire-text-box">
 									<h4>Upload Scanned Images</h4>
@@ -241,6 +329,8 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="assets/js/slick.js"></script>
+		
+		<script src="assets/js/bootstrap-material-design.min.js"></script>
 		<script src="assets/js/jquery.js"></script>
       
 		
